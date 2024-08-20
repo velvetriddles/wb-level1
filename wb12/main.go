@@ -12,7 +12,7 @@ func main() {
 	}
 
 	res := make([]string, 0, len(m))
-	for k, _ := range m {
+	for k := range m {
 		res = append(res, k)
 	}
 
